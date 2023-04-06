@@ -1,0 +1,25 @@
+{
+  "name": "open-beats",
+  "version": "1.0.0",
+  "description": "Open source for your heart",
+  "main": "index.js",
+  "scripts": {
+    "compile": "ncc build index.js --license LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bpazy/OpenBeats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bpazy/OpenBeats/issues"
+  },
+  "homepage": "https://github.com/Bpazy/OpenBeats#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1"
+  }
+}
